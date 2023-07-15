@@ -98,7 +98,7 @@ a {
 }
 
 .banner-content {
-    max-width: 585;
+    max-width: 585px;
 }
 
 .banner-para {
@@ -145,4 +145,11 @@ main {
     background: #FFF;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     padding: 30px;
+}
+
+/* styles for resume section */
+.resume-collumn{
+    display: flex;
+    gap: 10px;
+
 }
