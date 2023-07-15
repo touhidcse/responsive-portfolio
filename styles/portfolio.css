@@ -134,6 +134,9 @@ main {
 }
 
 /* what I do section style */
+.what-I-do-description{
+
+}
 .skills {
     display: flex;
     gap: 24px;
@@ -198,4 +201,21 @@ textarea {
 }
 .social-links a{
     margin-right: 25px;
+}
+
+.hide{
+    display: none;
+}
+
+
+/* Responsive styles */
+
+@media screen and (max-width:576px) {
+    .skills{
+        flex-direction: column;
+    }
+    .what-I-do-description{
+        padding: 20px;
+    
+    }
 }
