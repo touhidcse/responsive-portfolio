@@ -148,8 +148,23 @@ main {
 }
 
 /* styles for resume section */
-.resume-collumn{
+.resume-collumn {
     display: flex;
     gap: 10px;
 
+}
+
+.resume-title-container {
+    text-align: center;
+    margin: 50px 0px 30px 0px;
+}
+
+.resume-collumn hr {
+    margin: 30px;
+    
+}
+
+/* style for download button  */
+.download-CV {
+    text-align: center;
 }
