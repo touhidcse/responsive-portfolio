@@ -134,9 +134,11 @@ main {
 }
 
 /* what I do section style */
-.what-I-do-description{
+.what-I-do-description {
 
+    padding: 20px 150px;
 }
+
 .skills {
     display: flex;
     gap: 24px;
@@ -187,7 +189,8 @@ main {
     padding: 10px;
 }
 
-.contact input[type="text"], .contact input[type="email"],
+.contact input[type="text"],
+.contact input[type="email"],
 textarea {
     display: block;
     margin-top: 25px;
@@ -199,11 +202,12 @@ textarea {
     background: #FFF;
     width: 100%;
 }
-.social-links a{
+
+.social-links a {
     margin-right: 25px;
 }
 
-.hide{
+.hide {
     display: none;
 }
 
@@ -211,11 +215,88 @@ textarea {
 /* Responsive styles */
 
 @media screen and (max-width:576px) {
-    .skills{
+
+    .header,.banner, nav{
         flex-direction: column;
     }
-    .what-I-do-description{
-        padding: 20px;
-    
+    .header{
+        background: #FFF8F3;
+        background-image: none;
     }
+    nav{
+        width: 70%;
+        padding: 0;
+    }
+    .banner {
+        padding: 20px;
+    }
+    .banner .profile-pic{
+        width: 70%;
+    }
+    .btn-primary {
+        border-radius: 5px;
+        background: #FD6E0A;
+        color: #FFF;
+        font-size: 20px;
+        font-weight: 700;
+        border: 0;
+        padding: 5px 10px;
+        margin: 5px px;
+    }
+
+    .skills {
+        flex-direction: column;
+    }
+
+    .what-I-do-description {
+        padding: 20px;
+
+    }
+
+    .resume-collumn {
+        flex-direction: column;
+        padding: 5px 10px;
+    }
+
+    .footer {
+        flex-direction: column;
+        padding: 5px 10px;
+    }
+
+    .footer-collumn {
+        width: 100%;
+    }
+
+    .contact input[type="text"],
+    .contact input[type="email"],
+    textarea {
+        width:70%;
+    }
+    .about, .about-info-container{
+        margin:0px;
+        padding:20px;
+    }
+    .about-info-container{
+        flex-direction: column;
+
+    }
+    .banner-tile {
+        color: #181818;
+        font-size: 5em;
+        font-weight: 700;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+    .banner-content {
+        max-width: 50%;
+    }
+    
+    .banner-para {
+        margin: 5px;
+    }
+    
 }
+
+/* For medium device */
+@media screen and (min-width:576px) and (max-width:960px) {}
