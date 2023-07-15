@@ -66,9 +66,9 @@ a {
 /* header related styles */
 .header {
     background: #FFF8F3;
-    background-image: url(../portfolio-resources/images/header_bg.png);
+    background-image: url('../portfolio-resources/images/header_bg.png'), url('../portfolio-resources/images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 
 .banner {
@@ -195,4 +195,7 @@ textarea {
     border-radius: 5px;
     background: #FFF;
     width: 100%;
+}
+.social-links a{
+    margin-right: 25px;
 }
